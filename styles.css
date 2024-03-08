@@ -21,6 +21,9 @@ nav header {
     align-items: center;
     top: 0px;
     left: 0px;
+    background-color: #9b7124;
+    width: fit-content;
+    block-size: fit-content;
 }
 
 #navbar{
@@ -33,7 +36,7 @@ nav header {
     height: 100%;
     border-right: solid;
     border-color: #000000;
-    background-color: #282424;
+    background-color: #443a3a;
 }
 
 nav{
@@ -52,9 +55,37 @@ main{
     display: block;
 }
 
+section{
+    display: block;
+}
+
 #navbar ul{
     height:75%;
     padding: 0;
+    font-size: 0.8em;
+}
+
+#navbar li{
+    color: #000000;
+    border-top: 1px solid #186177;
+    list-style: none;
+    width: 100%;
+    display: block;
+}
+
+#navbar a{
+    color: #ffffff;
+    padding: 10px 30px;
+    display: block;
+    cursor: pointer;
+    text-decoration: none;
+    -webkit-text-stroke-width: 0.5px;
+    -webkit-text-stroke-color: #000000;
+}
+
+li{
+    display: list-item;
+    text-align: match-parent;
 }
 
 ul{
@@ -65,4 +96,30 @@ ul{
     margin-inline-start: 0px;
     margin-inline-end: 0px;
     padding-inline-start: 40px;
+}
+
+main b{
+    text-align: left;
+    margin: 0;
+    padding: 0;
+    font-size: 2em;
+}
+
+article{
+    color: #2e2c2c;
+    margin: 10px;
+    font-size: 1.0em;
+    display: block;
+}
+
+p{
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+#instruction-steps{
+    font-size: 1.2em;
 }
