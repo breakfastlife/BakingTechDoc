@@ -98,11 +98,18 @@ ul{
     padding-inline-start: 40px;
 }
 
+main header{
+    text-align: left;
+    margin: 0;
+    font-size: 2em;
+    font-weight: bold;
+}
+
 main b{
     text-align: left;
     margin: 0;
     padding: 0;
-    font-size: 2em;
+    font-size: 1.2em;
 }
 
 article{
